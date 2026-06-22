@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>[Your Business Name] — SMS Terms &amp; Privacy Policy</title>
+<style>
+  :root{
+    --ink:#1a2332;
+    --ink-soft:#4a5568;
+    --line:#e2e6ea;
+    --bg:#fbfbfa;
+    --panel:#ffffff;
+    --accent:#2c5f4f;
+    --accent-soft:#e8f1ee;
+    --serif: "Iowan Old Style","Palatino Linotype","Book Antiqua",Georgia,serif;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:var(--sans);
+    color:var(--ink);
+    background:var(--bg);
+    line-height:1.6;
+  }
+  header{
+    border-bottom:1px solid var(--line);
+    background:var(--panel);
+    padding:28px 24px;
+  }
+  .wrap{max-width:760px;margin:0 auto;padding:0 24px;}
+  .brand{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    max-width:760px;
+    margin:0 auto;
+  }
+  .logo{
+    width:44px;height:44px;border-radius:10px;
+    background:var(--accent);
+    color:#fff;
+    display:flex;align-items:center;justify-content:center;
+    font-family:var(--serif);
+    font-size:20px;
+    flex-shrink:0;
+  }
+  .brand h1{
+    font-family:var(--serif);
+    font-size:1.3rem;
+    margin:0;
+    font-weight:600;
+  }
+  .brand p{margin:2px 0 0;font-size:.85rem;color:var(--ink-soft);}
+
+  nav.toc{
+    background:var(--accent-soft);
+    border-bottom:1px solid var(--line);
+    padding:14px 24px;
+  }
+  nav.toc .wrap{display:flex;flex-wrap:wrap;gap:18px;}
+  nav.toc a{
+    color:var(--accent);
+    text-decoration:none;
+    font-size:.88rem;
+    font-weight:600;
+  }
+  nav.toc a:hover, nav.toc a:focus{text-decoration:underline;}
+
+  main{padding:48px 24px 80px;}
+
+  section{
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-radius:12px;
+    padding:32px;
+    margin-bottom:24px;
+  }
+  section h2{
+    font-family:var(--serif);
+    font-size:1.4rem;
+    margin-top:0;
+    margin-bottom:14px;
+    color:var(--ink);
+  }
+  section h3{
+    font-size:1rem;
+    margin:22px 0 8px;
+    color:var(--ink);
+  }
+  p{margin:0 0 14px;color:var(--ink-soft);font-size:.97rem;}
+  ul{margin:0 0 14px;padding-left:20px;color:var(--ink-soft);font-size:.97rem;}
+  li{margin-bottom:6px;}
+  strong{color:var(--ink);}
+
+  .callout{
+    background:var(--accent-soft);
+    border-left:3px solid var(--accent);
+    border-radius:6px;
+    padding:14px 18px;
+    margin:18px 0;
+    font-size:.92rem;
+  }
+  .callout p{margin:0;color:var(--ink);}
+
+  .placeholder{
+    background:#fff7e6;
+    border:1px dashed #e0b84a;
+    border-radius:6px;
+    padding:2px 6px;
+    font-size:.85em;
+    color:#8a6a1a;
+  }
+
+  form{
+    border:1px solid var(--line);
+    border-radius:10px;
+    padding:24px;
+    background:#fcfcfb;
+  }
+  label{
+    display:block;
+    font-size:.85rem;
+    font-weight:600;
+    margin:14px 0 6px;
+    color:var(--ink);
+  }
+  label:first-child{margin-top:0;}
+  input[type="text"], input[type="tel"], input[type="email"]{
+    width:100%;
+    padding:10px 12px;
+    border:1px solid var(--line);
+    border-radius:7px;
+    font-size:.95rem;
+    font-family:var(--sans);
+    background:#fff;
+  }
+  .checkbox-row{
+    display:flex;
+    gap:10px;
+    align-items:flex-start;
+    margin-top:18px;
+    background:var(--accent-soft);
+    padding:14px;
+    border-radius:8px;
+  }
+  .checkbox-row input{margin-top:3px;flex-shrink:0;}
+  .checkbox-row label{
+    margin:0;
+    font-weight:400;
+    font-size:.85rem;
+    color:var(--ink-soft);
+  }
+  button{
+    margin-top:18px;
+    background:var(--accent);
+    color:#fff;
+    border:none;
+    padding:12px 22px;
+    border-radius:7px;
+    font-size:.95rem;
+    font-weight:600;
+    cursor:pointer;
+  }
+  button:hover{opacity:.92;}
+  button:focus-visible, a:focus-visible, input:focus-visible{
+    outline:2px solid var(--accent);
+    outline-offset:2px;
+  }
+
+  footer{
+    text-align:center;
+    padding:32px 24px 48px;
+    color:var(--ink-soft);
+    font-size:.85rem;
+  }
+  footer a{color:var(--accent);}
+
+  @media (prefers-reduced-motion: reduce){
+    *{scroll-behavior:auto !important;}
+  }
+  html{scroll-behavior:smooth;}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <div class="logo">A</div>
+    <div>
+      <h1><span class="placeholder">[Your Business Name]</span></h1>
+      <p>SMS Program Terms &amp; Privacy Policy</p>
+    </div>
+  </div>
+</header>
+
+<nav class="toc">
+  <div class="wrap">
+    <a href="#about">About</a>
+    <a href="#optin">SMS Opt-In</a>
+    <a href="#sms-terms">SMS Terms</a>
+    <a href="#privacy">Privacy Policy</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<main class="wrap">
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      <span class="placeholder">[Your Business Name]</span> provides
+      <span class="placeholder">[brief description of your products/services, e.g., "appointment scheduling and customer support for our retail locations"]</span>.
+      This page describes how we collect consent for SMS text messaging, what messages you can expect,
+      and how we handle your personal information.
+    </p>
+    <ul>
+      <li><strong>Business address:</strong> <span class="placeholder">[Street Address, City, State, ZIP]</span></li>
+      <li><strong>Business email:</strong> <span class="placeholder">[contact@yourbusiness.com]</span></li>
+      <li><strong>Business phone:</strong> <span class="placeholder">[(555) 555-5555]</span></li>
+      <li><strong>Website:</strong> <span class="placeholder">[www.yourbusiness.com]</span></li>
+    </ul>
+  </section>
+
+  <section id="optin">
+    <h2>SMS Opt-In</h2>
+    <p>
+      By submitting the form below, you consent to receive text messages from
+      <span class="placeholder">[Your Business Name]</span> at the phone number provided, including
+      transactional messages (such as appointment reminders and order updates) and marketing
+      messages (such as promotions and special offers).
+    </p>
+
+    <div class="callout">
+      <p>
+        <strong>Consent to receive marketing texts is not a condition of any purchase.</strong>
+        You may opt out at any time by texting <strong>STOP</strong>. For help, text <strong>HELP</strong>
+        or contact us at <span class="placeholder">[contact@yourbusiness.com]</span>.
+      </p>
+    </div>
+
+    <form onsubmit="return false;">
+      <label for="name">Full name</label>
+      <input type="text" id="name" name="name" placeholder="Jane Doe" autocomplete="name">
+
+      <label for="phone">Mobile phone number</label>
+      <input type="tel" id="phone" name="phone" placeholder="(555) 555-5555" autocomplete="tel">
+
+      <label for="email">Email (optional)</label>
+      <input type="email" id="email" name="email" placeholder="jane@example.com" autocomplete="email">
+
+      <div class="checkbox-row">
+        <input type="checkbox" id="consent" name="consent" required>
+        <label for="consent">
+          I agree to receive recurring transactional and marketing text messages from
+          <span class="placeholder">[Your Business Name]</span> at the phone number provided.
+          Message frequency varies (up to <span class="placeholder">[X]</span> msgs/month).
+          Message and data rates may apply. Reply <strong>STOP</strong> to cancel, <strong>HELP</strong>
+          for help. View our <a href="#sms-terms">SMS Terms</a> and <a href="#privacy">Privacy Policy</a>.
+        </label>
+      </div>
+
+      <button type="submit">Sign Up for Texts</button>
+    </form>
+  </section>
+
+  <section id="sms-terms">
+    <h2>SMS Terms &amp; Conditions</h2>
+
+    <h3>Program description</h3>
+    <p>
+      <span class="placeholder">[Your Business Name]</span>'s SMS program sends transactional messages
+      (e.g., appointment confirmations, order/shipping updates, account alerts) and marketing messages
+      (e.g., promotions, discounts, new product announcements) to subscribers who have opted in.
+    </p>
+
+    <h3>Message frequency</h3>
+    <p>Message frequency varies, up to approximately <span class="placeholder">[X messages per month]</span>.</p>
+
+    <h3>Cost</h3>
+    <p>Message and data rates may apply. Charges depend on your mobile carrier and plan.</p>
+
+    <h3>Opt-out</h3>
+    <p>
+      You can opt out of receiving text messages at any time by texting <strong>STOP</strong> to the
+      number you received messages from. After you send STOP, we will send a one-time confirmation
+      message and you will receive no further messages until you opt in again.
+    </p>
+
+    <h3>Help</h3>
+    <p>
+      Text <strong>HELP</strong> for assistance, or contact us directly at
+      <span class="placeholder">[contact@yourbusiness.com]</span> or
+      <span class="placeholder">[(555) 555-5555]</span>.
+    </p>
+
+    <h3>Supported carriers</h3>
+    <p>
+      Carriers are not liable for delayed or undelivered messages. T-Mobile is not liable for delayed
+      or undelivered messages.
+    </p>
+
+    <h3>No data sharing for marketing</h3>
+    <p>
+      We do not share, sell, or rent mobile opt-in data or phone numbers with third parties or
+      affiliates for their own marketing purposes. Text messaging originator opt-in data and consent
+      will not be shared with any third party.
+    </p>
+  </section>
+
+  <section id="privacy">
+    <h2>Privacy Policy</h2>
+    <p><em>Last updated: <span class="placeholder">[Month Day, Year]</span></em></p>
+
+    <h3>Information we collect</h3>
+    <p>
+      We collect information you provide directly, such as your name, phone number, email address,
+      and any other details submitted through our forms.
+    </p>
+
+    <h3>How we use your information</h3>
+    <ul>
+      <li>To send transactional and marketing SMS messages you've opted in to receive</li>
+      <li>To respond to inquiries and provide customer support</li>
+      <li>To improve our products, services, and website</li>
+      <li>To comply with legal obligations</li>
+    </ul>
+
+    <h3>How we share your information</h3>
+    <p>
+      We do not sell your personal information. We do not share your mobile phone number or SMS
+      opt-in consent with third parties for their marketing or promotional purposes. We may share
+      information with service providers who help us operate our business (e.g., SMS delivery
+      platforms), under confidentiality obligations, and solely to provide the service.
+    </p>
+
+    <h3>Data retention</h3>
+    <p>
+      We retain your information for as long as necessary to provide our services and comply with
+      legal obligations, after which it is deleted or anonymized.
+    </p>
+
+    <h3>Your choices</h3>
+    <ul>
+      <li>Text <strong>STOP</strong> at any time to opt out of SMS messages</li>
+      <li>Contact us to request access to, correction of, or deletion of your personal information</li>
+    </ul>
+
+    <h3>Security</h3>
+    <p>
+      We use reasonable administrative, technical, and physical safeguards to protect your information.
+      No method of transmission or storage is 100% secure.
+    </p>
+
+    <h3>Children's privacy</h3>
+    <p>Our services are not directed to children under 13, and we do not knowingly collect their information.</p>
+
+    <h3>Changes to this policy</h3>
+    <p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated revision date.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>If you have questions about this page, our SMS program, or your personal information, contact us:</p>
+    <ul>
+      <li><strong>Email:</strong> <span class="placeholder">[contact@yourbusiness.com]</span></li>
+      <li><strong>Phone:</strong> <span class="placeholder">[(555) 555-5555]</span></li>
+      <li><strong>Mail:</strong> <span class="placeholder">[Street Address, City, State, ZIP]</span></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer>
+  &copy; <span class="placeholder">[Year]</span> <span class="placeholder">[Your Business Name]</span>. All rights reserved.
+</footer>
+
+</body>
+</html>
